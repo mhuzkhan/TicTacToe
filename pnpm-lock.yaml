@@ -20,7 +20,7 @@ importers:
         version: 19.1.0
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.1.0(@types/react@19.1.0)
+        version: 19.1.1(@types/react@19.1.0)
       '@vitejs/plugin-react':
         specifier: ^4.3.1
         version: 4.3.4(vite@6.2.4)
@@ -475,8 +475,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/react-dom@19.1.0':
-    resolution: {integrity: sha512-21E2zejNNRtjG4hKIyJz4aWswGEcNFTgttA0bZIRGjj1HA/tbSUxIJnIcYbn98pwJck0cS1bsQhn6eaKqbcFWw==}
+  '@types/react-dom@19.1.1':
+    resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
     peerDependencies:
       '@types/react': ^19.0.0
 
@@ -1707,7 +1707,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/react-dom@19.1.0(@types/react@19.1.0)':
+  '@types/react-dom@19.1.1(@types/react@19.1.0)':
     dependencies:
       '@types/react': 19.1.0
 
